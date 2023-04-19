@@ -6,7 +6,6 @@ import com.google.gson.Gson;
 import java.util.List;
 
 public class Customer {
-    //name (a String), balance (a double), and itemsPurchased (an array of Item objects)
 
     private String name;
     private double balance;

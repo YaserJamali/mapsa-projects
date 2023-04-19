@@ -2,10 +2,8 @@ package com.amazon.model;
 
 import com.google.gson.Gson;
 
-import java.util.List;
 
 public class Item  {
-   // name (a String), price (a double), and quantity (an int).
     private String name;
     private double price;
     private int quantity;
@@ -13,7 +11,7 @@ public class Item  {
     public Item() {
     }
 
-    public Item(String name, double price, int quantity) {
+    public Item(String name, double price,int quantity) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;

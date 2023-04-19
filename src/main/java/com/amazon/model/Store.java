@@ -5,8 +5,6 @@ import com.google.gson.Gson;
 import java.util.List;
 
 public class Store {
-    //name (a String), itemsInStock (an array of Item objects),
-    // and customers (an array of Customer objects).
 
     private String name;
 
